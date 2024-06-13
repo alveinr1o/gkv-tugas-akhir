@@ -33,7 +33,7 @@ Penelitian ini memanfaatkan data dari Badan Pusat Statistik (BPS), yang merupaka
 ## Anggota Kelompok
 | Nama                  | NIM           | Username Github                   |
 | :-------------------- | :------------ | :-------------------------------- |
-| Fari Hafizh Nugroho   | G6401221056   | https://github.com/      |
+| Fari Hafizh Nugroho   | G6401221056   | https://github.com/FariHafizh     |
 | Raden Fitzal B.N.W    | G6401201086   | https://github.com/Fitznug045     |
 | Rio Alvein Hasana     | G6401201042   | https://github.com/alveinr1o      |
 

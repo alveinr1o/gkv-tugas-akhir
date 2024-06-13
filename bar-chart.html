@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produksi Beras di Indonesia</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 800px;
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        canvas {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Produksi Padi di Indonesia <span style="font-weight: bold;">2015</span></h1>
+        <canvas id="barChart"></canvas>
+    </div>
+    <script>
+        // Data produksi 
+        const data = {
+            labels: ['Padi', 'Jagung', 'Ubi Jalar'],
+            datasets: [
+                {
+                    label: 'Pulau Jawa',
+                    data: [38970026, 10614441, 984224],
+                    backgroundColor: 'rgba(0, 71, 179, 0.5)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                },
+                {
+                    label: 'Pulau Sumatera',
+                    data: [18358385, 4255394, 466487],
+                    backgroundColor: 'rgba(0, 119, 255, 0.5)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                },
+                {
+                    label: 'Pulau Sulawesi',
+                    data: [8615127, 2772491, 149959],
+                    backgroundColor: 'rgba(0, 166, 255, 0.5)',
+                    borderColor: 'rgba(33, 150, 243, 1)',
+                    borderWidth: 1
+                },
+                {
+                    label: 'Pulau Kalimantan',
+                    data: [4830069, 249847, 56200],
+                    backgroundColor: 'rgba(0, 212, 255, 0.5)',
+                    borderColor: 'rgba(0, 188, 212, 1)',
+                    borderWidth: 1
+                },
+                {
+                    label: 'Pulalu Papua',
+                    data: [211988, 8930, 460026],
+                    backgroundColor: 'rgba(0, 255, 255, 0.5)',
+                    borderColor: 'rgba(3, 169, 244, 1)',
+                    borderWidth: 1
+                }
+            ]
+        };
+
+        // Konfigurasi chart
+        const config = {
+            type: 'bar',
+            data: data,
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Jumlah Produksi (ton)',
+                            font: {
+                                size: 16,
+                                weight: 'bold'
+                            }
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Bahan Pokok',
+                            font: {
+                                size: 16,
+                                weight: 'bold'
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    },
+                    title: {
+                        display: true,
+                        text: 'Produksi Padi, Jagung, dan Ubi Jalar di Indonesia Tahun 2015',
+                    }
+                }
+            }
+        };
+
+        // Inisialisasi dan render chart
+        const barChart = new Chart(
+            document.getElementById('barChart'),
+            config
+        );
+    </script>
+</body>
+</html>

@@ -3,12 +3,11 @@
 ### Daftar Isi
 
 - [Deskripsi](#deskripsi)
+- [Dokumentasi](#dokumentasi)
 - [Anggota Kelompok](#anggota-kelompok)
-- [Laporan dan Video](#laporan)
 
 ## Deskripsi 
-<img src='assets/logo.png'>
-<p>Perkembangan teknologi informasi dan komunikasi telah memberikan dampak signifikan pada industri pariwisata, memungkinkan wisatawan untuk dengan mudah mencari informasi tentang destinasi wisata dan berbagi pengalaman secara online. Website jurnal perjalanan ini dikembangkan untuk menyediakan platform yang komprehensif bagi wisatawan, dengan fitur utama berupa informasi tempat wisata, artikel deskriptif, forum diskusi, dan daftar kunjungan pribadi. Dalam pengembangan website ini, metode agile, khususnya Scrum dengan tambahan Kanban, dipilih untuk meningkatkan efisiensi tim. Penggunaan berbagai bahasa pemrograman seperti HTML, CSS, JavaScript, dan framework Django memungkinkan terciptanya website yang fungsional dan interaktif. Hasilnya, website ini mampu membantu pengguna dalam merencanakan perjalanan, berbagi pengalaman, dan berinteraksi dengan komunitas wisatawan lainnya, serta memberikan kemudahan dalam mencatat dan mengelola kunjungan wisata mereka. Website ini diharapkan dapat meningkatkan pengalaman wisata pengguna dan berkontribusi pada pengembangan sektor pariwisata di Indonesia.</p>
+<p>Padi merupakan bahan makanan yang menghasilkan beras yang juga merupakan tanaman pokok bagi penduduk Indonesia yang di konsumsi guna mempertahankan kelangsungan hidupnya. Beras merupakan padi yang berasal dari tumbuh-tumbuhan golongan rumput-rumputan (gramineae) yang telah banyak dibudidayakan di Indonesia sejak lama. Selain itu Indonesia berada pada urutan ke tujuh Negara dengan areal jagung terluas dan urutan ke Sembilan Negara penghasil jagung terbesar di dunia. Di Indonesia jagung merupakan bahan pangan penting, sumber karbohidrat kedua setelah beras. Selain padi dan jagung ubi jalar merupakan salah satu makanan pokok bagi sekelompok penduduk Indonesia, karena itu tanaman ubi jalar ikut memegang peranan penting di dalam posisi lumbung pangan nasional. Tanaman tersebut juga memegang peranan penting dalam perekonomian nasional, terutama di kalangan masyarakat pedesaan di Indonesia.</p>
 
 ## Dokumentasi
 <table>
@@ -30,8 +29,8 @@
 ## Anggota Kelompok
 | Nama                  | NIM           | Username Github                   |
 | :-------------------- | :------------ | :-------------------------------- |
-| Darmawan Setyaputra P | G6401221020   | https://github.com/dsputra12      |
-| Ahmad Qaulan Sadida   | G6401201032   | https://github.com/ahqsa24        |
+| Fari Hafizh Nugroho   | G6401221056   | https://github.com/      |
+| Raden Fitzal B.N.W    | G6401201086   | https://github.com/Fitznug045     |
 | Rio Alvein Hasana     | G6401201042   | https://github.com/alveinr1o      |
 
 

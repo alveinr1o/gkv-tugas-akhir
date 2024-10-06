@@ -1,4 +1,4 @@
-# Projek Akhir Rekayasa Perangkat Lunak P3 Kelompok 10
+# Projek Akhir Grafika Komputer dan Visualisasi
 
 ### Daftar Isi
 
